@@ -26,10 +26,9 @@ export default class RunningNews extends Component {
 
             
                   <div>
-                      
-                  
-                        <Test/>
                         <Run/>
+                        <Test/>
+                        
                       <div>{myItems[0]}</div>
                       {array.map(el=><div>{el}</div>)}
                       

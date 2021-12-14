@@ -6,7 +6,7 @@ const Run = () => {
 
  
   const array = ['rut','dina'];
-
+  console.dir('hello');
   const scrolling = useSpring({
     from: { transform: "translate(99%,0)" },
     to: { transform: "translate(-60%,0)" },
