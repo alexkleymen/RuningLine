@@ -1,0 +1,5 @@
+dist/
+node_modules/
+C:\\Users\\nh2odq\\OneDrive - SPLM\\Documents\\Mendix\\Workflow-main/
+*.log
+.env

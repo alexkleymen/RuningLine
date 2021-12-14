@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="siemens.runningnews.RunningNews" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Running News</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="data" type="datasource" isList="true" required="false">
+                <caption>Data source</caption>
+                <description />
+            </property>
+            <property key="RoleName" type="attribute" required="true" dataSource="data">
+                <caption>Time Attribute</caption>
+                <description />
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="myString" type="string" >
+                <caption>My string</caption>
+                <description>My string setting</description>
+            </property>
+            <property key="progressBarColor" type="expression" defaultValue="'red'">
+                <caption>Color</caption>
+                <description>Progress bar CSS color</description>
+                <returnType type="String" />
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

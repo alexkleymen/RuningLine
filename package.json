@@ -1,0 +1,34 @@
+{
+  "name": "runningnews",
+  "widgetName": "RunningNews",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "Alex",
+  "author": "alex",
+  "engines": {
+    "node": ">=12"
+  },
+  "config": {
+    "projectPath": "C:\\Users\\nh2odq\\OneDrive - SPLM\\Documents\\Mendix\\App",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "siemens",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^17.0.2",
+    "react-spring": "^9.3.2"
+  }
+}
